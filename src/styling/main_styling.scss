@@ -16,12 +16,14 @@ html,
     justify-content: center;
     align-content: center;
     align-items: center;
-    width: 100vw;
     height: 100vh;
     font-family: "MuseoModerno", semibold;
+    scroll-behavior: smooth;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 8px 16px;
 }
 
@@ -42,9 +44,8 @@ link {
 
 .App {
     width: 90vw;
-    height: 90vh;
     display: flex;
-    flex:1
+    flex: 2;
 }
 
 .menuContainer {
@@ -99,6 +100,7 @@ link {
     }
 
 }
+
 .projectsMenuContainer {
     display: flex;
     justify-content: center;
@@ -134,7 +136,7 @@ link {
 }
 
 .projectContainer {
-    width:100%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -197,16 +199,25 @@ link {
 
 .containerFooterHorizontal {
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        margin: 0 1rem;
+    }
 }
 
 @media (max-width: 1024px) {
+    #root {
+        align-items: flex-start;
+        min-height: auto;
+    }
+
     .App {
         box-sizing: border-box;
         flex-direction: column;
         width: 90vw;
-        min-height: 100vh;
+        height: fit-content;
         align-self: center;
     }
 
