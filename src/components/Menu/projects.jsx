@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import '../../styling/main_styling.scss';
 
@@ -6,33 +7,20 @@ import '../../styling/main_styling.scss';
 const Projects = () => {
 
     return (
-        <div className="projectsContainer">
-            <div className='projectColumn'>
+        <div className="projectsMenuContainer">
+            <div className='projectMenuColumn'>
                 <h3>Personal projects</h3>
-                <div className="projectNameContainer">
-                        <span>Forma Zakupy</span>
-                </div>
-                <div className="projectNameContainer">
-                        <span>Wthr</span>
-                </div>
-                <div className="projectNameContainer">
-                        <span>Animals sounds</span>
-                </div>
-                <div className="projectNameContainer">
-                        <span>Contact form</span>
-                </div>
+                <NavLink className="projectNameContainer" to="/projects/formazakupy"><span>Forma Zakupy</span></NavLink>
+                <NavLink className="projectNameContainer" to="/projects/wthr"><span>Wthr</span></NavLink>
+                <NavLink className="projectNameContainer" to="/projects/candydefense"><span>Candy defense</span></NavLink>
+                <NavLink className="projectNameContainer" to="/projects/contactform"><span>Contact form</span></NavLink>
+                <NavLink className="projectNameContainer" to="/projects/animalssounds"><span>Animals sounds</span></NavLink>
             </div>
-            <div className='projectColumn'>
+            <div className='projectMenuColumn'>
                 <h3>CodersCamp projects</h3>
-               <div className="projectNameContainer">
-                        <span>Snake</span>
-                </div>
-                <div className="projectNameContainer">
-                        <span>ForeCCast</span>
-                </div>
-                <div className="projectNameContainer">
-                        <span>TaskWars</span>
-                </div>
+                <NavLink className="projectNameContainer" to="/projects/snake"> <span>Snake</span></NavLink>
+                <NavLink className="projectNameContainer" to="/projects/foreccast"><span>ForeCCast</span></NavLink>
+                <NavLink className="projectNameContainer" to="/projects/taskwars"><span>TaskWars</span></NavLink>
             </div>
         </div>
     );
