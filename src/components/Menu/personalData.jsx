@@ -14,9 +14,9 @@ const PersonalData = () => {
                     <h2>Mateusz Fordas</h2>
                     <h3>Junior JavaScript Developer</h3>
                     <div className='linksIconsSocial'>
-                        <h1><a href='https://fordas.pl/' rel="noopener noreferrer" target='_blank'><TiHomeOutline/></a></h1>
-                        <h1><a href='https://github.com/mfordas' rel="noopener noreferrer" target='_blank'><TiSocialGithubCircular/></a></h1>
-                        <h1><a href='https://www.linkedin.com/in/mateusz-fordas/' rel="noopener noreferrer" target='_blank'><TiSocialLinkedinCircular/></a></h1>
+                        <h2><a href='https://fordas.pl/' rel="noopener noreferrer" target='_blank'><TiHomeOutline/></a></h2>
+                        <h2><a href='https://github.com/mfordas' rel="noopener noreferrer" target='_blank'><TiSocialGithubCircular/></a></h2>
+                        <h2><a href='https://www.linkedin.com/in/mateusz-fordas/' rel="noopener noreferrer" target='_blank'><TiSocialLinkedinCircular/></a></h2>
                     </div>
                     <h3>Tech stack</h3>
                     <div className='linksIconsStack'>
