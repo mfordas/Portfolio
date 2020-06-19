@@ -32,6 +32,7 @@ const AppContent = () => {
 
     return (
         <>
+        <div className="AppContainer">
             <div onLoadStart={() => countForOpenModal()} className="App">
                 <Modal
                     isOpen={modalIsOpen}
@@ -52,6 +53,7 @@ const AppContent = () => {
                 <Projects />
             </div>
             <Footer />
+            </div>
         </>
     );
 }

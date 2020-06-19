@@ -14,7 +14,6 @@ import '../../styling/main_styling.scss';
 const Projects = () => {
         return (
             <div className='projectsContainer'>
-     <Switch>
           <Route exact path="/projects/formazakupy" component={FormaZakupy} />
           <Route exact path="/projects/wthr" component={Wthr} />
           <Route exact path="/projects/candydefense" component={CandyDefense} />
@@ -23,9 +22,8 @@ const Projects = () => {
           <Route exact path="/projects/taskwars" component={TaskWars} />
           <Route exact path="/projects/foreccast" component={ForeCCast} />
           <Route exact path="/projects/snake" component={Snake} />
-          <Route exact path="/projects/main" component={MainPageContent} />
-          <Route render={() => <Redirect to="/projects/main" />} />
-        </Switch>
+          <Route path="/projects/main" component={MainPageContent} />
+          {/* <Route render={() => <Redirect to="/projects/main" />} /> */}
 
             </div>
         );
