@@ -12,7 +12,7 @@ function App() {
       <Switch>
         <Route path="/projects" component={AppContent} />
         <Route path="/" component={LandingPage} />
-        <Route render={() => <Redirect to="/menu" />} />
+        <Route render={() => <Redirect to="/" />} />
       </Switch>
     </BrowserRouter>
   );

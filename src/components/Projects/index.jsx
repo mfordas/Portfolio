@@ -23,8 +23,6 @@ const Projects = () => {
           <Route exact path="/projects/foreccast" component={ForeCCast} />
           <Route exact path="/projects/snake" component={Snake} />
           <Route path="/projects/main" component={MainPageContent} />
-          {/* <Route render={() => <Redirect to="/projects/main" />} /> */}
-
             </div>
         );
 }
