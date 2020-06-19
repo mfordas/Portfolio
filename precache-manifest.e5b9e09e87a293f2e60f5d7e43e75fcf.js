@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36fd3f0b2a8a4d24019dca221a173caa",
+    "revision": "cbbd38463f6ac9d84682fb93c7012722",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "94ac8c369c3f68eac768",
-    "url": "/Portfolio/static/css/main.1aa0d88f.chunk.css"
+    "revision": "c05fb9830d500bdc61e6",
+    "url": "/Portfolio/static/css/main.665ac412.chunk.css"
   },
   {
-    "revision": "7fe4f47da54c35e7b810",
-    "url": "/Portfolio/static/js/2.d942452e.chunk.js"
+    "revision": "b119cc242840b95798be",
+    "url": "/Portfolio/static/js/2.a317b3ab.chunk.js"
   },
   {
     "revision": "a1a636632721a402612df3e043dd630d",
-    "url": "/Portfolio/static/js/2.d942452e.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.a317b3ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94ac8c369c3f68eac768",
-    "url": "/Portfolio/static/js/main.7241e948.chunk.js"
+    "revision": "c05fb9830d500bdc61e6",
+    "url": "/Portfolio/static/js/main.daeb3d8e.chunk.js"
   },
   {
     "revision": "1bb03f8fa6eaad57c510",
@@ -90,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f4863e2d3f302aae45477611d4656437",
     "url": "/Portfolio/static/media/jest-seeklogo.com.f4863e2d.svg"
+  },
+  {
+    "revision": "4e26c2f6f22b7d2e7c9847b91ccc7d28",
+    "url": "/Portfolio/static/media/photo.4e26c2f6.png"
   },
   {
     "revision": "5c7392a91f8cd5d997137f6b4a36870b",

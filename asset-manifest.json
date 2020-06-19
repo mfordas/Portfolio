@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1aa0d88f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.7241e948.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.7241e948.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.665ac412.chunk.css",
+    "main.js": "/Portfolio/static/js/main.daeb3d8e.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.daeb3d8e.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e3b9ca47.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e3b9ca47.js.map",
-    "static/js/2.d942452e.chunk.js": "/Portfolio/static/js/2.d942452e.chunk.js",
-    "static/js/2.d942452e.chunk.js.map": "/Portfolio/static/js/2.d942452e.chunk.js.map",
+    "static/js/2.a317b3ab.chunk.js": "/Portfolio/static/js/2.a317b3ab.chunk.js",
+    "static/js/2.a317b3ab.chunk.js.map": "/Portfolio/static/js/2.a317b3ab.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.88eb08256691ca6a931093fa82fa3572.js": "/Portfolio/precache-manifest.88eb08256691ca6a931093fa82fa3572.js",
+    "precache-manifest.e5b9e09e87a293f2e60f5d7e43e75fcf.js": "/Portfolio/precache-manifest.e5b9e09e87a293f2e60f5d7e43e75fcf.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.1aa0d88f.chunk.css.map": "/Portfolio/static/css/main.1aa0d88f.chunk.css.map",
-    "static/js/2.d942452e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d942452e.chunk.js.LICENSE.txt",
+    "static/css/main.665ac412.chunk.css.map": "/Portfolio/static/css/main.665ac412.chunk.css.map",
+    "static/js/2.a317b3ab.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a317b3ab.chunk.js.LICENSE.txt",
     "static/media/CC_foreccast.png": "/Portfolio/static/media/CC_foreccast.aa5eacc3.png",
     "static/media/CC_snake.png": "/Portfolio/static/media/CC_snake.f6a5d0c0.png",
     "static/media/CC_taskwars1.png": "/Portfolio/static/media/CC_taskwars1.2209c962.png",
@@ -29,13 +29,14 @@
     "static/media/candy_defense_2.png": "/Portfolio/static/media/candy_defense_2.c457c1c2.png",
     "static/media/contact_form.png": "/Portfolio/static/media/contact_form.bc62fdd5.png",
     "static/media/jest-seeklogo.com.f4863e2d.svg": "/Portfolio/static/media/jest-seeklogo.com.f4863e2d.svg",
+    "static/media/photo.png": "/Portfolio/static/media/photo.4e26c2f6.png",
     "static/media/redux_logo.5c7392a9.svg": "/Portfolio/static/media/redux_logo.5c7392a9.svg",
     "static/media/wthr.png": "/Portfolio/static/media/wthr.fb83aae8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e3b9ca47.js",
-    "static/js/2.d942452e.chunk.js",
-    "static/css/main.1aa0d88f.chunk.css",
-    "static/js/main.7241e948.chunk.js"
+    "static/js/2.a317b3ab.chunk.js",
+    "static/css/main.665ac412.chunk.css",
+    "static/js/main.daeb3d8e.chunk.js"
   ]
 }
