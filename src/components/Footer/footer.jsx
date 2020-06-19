@@ -11,7 +11,6 @@ const FooterContent = () => {
     return (
         <footer className="containerFooterHorizontal">
         <p>Copyright © <a target="_blank" rel="noopener noreferrer" href="https://fordas.pl" >Mateusz Fordas</a> 2020 </p>
-        <p><a href='#top'><TiArrowUpThick/></a></p>
         </footer>
     );
 }

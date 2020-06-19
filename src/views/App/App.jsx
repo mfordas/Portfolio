@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
+import { HashRouter, Route, Redirect, Switch } from 'react-router-dom';
 
 
 import LandingPage from '../../components/LandingPage';
@@ -8,13 +8,13 @@ import '../../styling/main_styling.scss'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route path="/Portfolio/projects" component={AppContent} />
         <Route path="/" component={LandingPage} />
         <Route render={() => <Redirect to="/" />} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
