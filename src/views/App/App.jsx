@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/projects" component={AppContent} />
+        <Route path="/Portfolio/projects" component={AppContent} />
         <Route path="/" component={LandingPage} />
         <Route render={() => <Redirect to="/" />} />
       </Switch>

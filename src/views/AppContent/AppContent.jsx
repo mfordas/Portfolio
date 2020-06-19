@@ -48,7 +48,7 @@ const AppContent = () => {
                     <div>This means you like it! :) Write me a message or take a phone and make a call. There's no reason to wait any longer.</div>
                     <button className="modalButton" onClick={closeModal}>Close</button>
                 </Modal>
-                <NavLink className='mainPageLink' to="/projects/main"><TiHome /></NavLink>
+                <NavLink className='mainPageLink' to="/Portfolio/projects/main"><TiHome /></NavLink>
                 <Menu />
                 <Projects />
             </div>

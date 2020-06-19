@@ -8,7 +8,7 @@ const LandingPageContent = () => {
     return (
         <div className="landingContainer">
             <h3>Jump in!</h3>
-            <NavLink className="hole" to="/projects/main"></NavLink>
+            <NavLink className="hole" to="/Portfolio/projects/main"></NavLink>
         </div>
     );
 }
