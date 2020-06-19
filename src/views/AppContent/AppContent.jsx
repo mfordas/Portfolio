@@ -52,7 +52,7 @@ const AppContent = () => {
                     <a href='https://www.linkedin.com/in/mateusz-fordas/' rel="noopener noreferrer" target='_blank'><TiSocialLinkedinCircular/></a>
                     <button className="modalButton" onClick={closeModal}>Close</button>
                 </Modal>
-                <NavLink className='mainPageLink' to="/Portfolio/projects/main"><TiHome /></NavLink>
+                <NavLink className='mainPageLink' to="/Portfolio/projects"><TiHome /></NavLink>
                 <Menu />
                 <Projects />
             </div>
