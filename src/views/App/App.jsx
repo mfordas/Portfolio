@@ -1,22 +1,20 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 
-import Menu from '../../components/Menu';
-import Projects from '../../components/Projects';
-import Footer from '../../components/Footer';
+
+import LandingPage from '../../components/LandingPage';
+import AppContent from '../AppContent/AppContent';
 import '../../styling/main_styling.scss'
 
 function App() {
   return (
-    <div className="AppCointainer">
-    <div className="App">
       <BrowserRouter>
-     <Menu />
-     <Projects />
-     </BrowserRouter>
+    <div className="AppContainer">
+        <Route path="/projects" component={AppContent} />
     </div>
-    <Footer />
-    </div>
+        <Route path="/main" component={LandingPage} />
+        <Route render={() => <Redirect to="/main" />} />
+      </BrowserRouter>
   );
 }
 

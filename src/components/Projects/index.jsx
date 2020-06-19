@@ -8,6 +8,7 @@ import AnimalsSounds from './animalsSounds';
 import TaskWars from './taskWars';
 import Snake from './snake';
 import ForeCCast from './foreccast';
+import MainPageContent from './mainPage';
 import '../../styling/main_styling.scss';
 
 const Projects = () => {
@@ -22,7 +23,8 @@ const Projects = () => {
           <Route exact path="/projects/taskwars" component={TaskWars} />
           <Route exact path="/projects/foreccast" component={ForeCCast} />
           <Route exact path="/projects/snake" component={Snake} />
-          <Route render={() => <Redirect to="/" />} />
+          <Route exact path="/projects/main" component={MainPageContent} />
+          <Route render={() => <Redirect to="/projects/main" />} />
         </Switch>
 
             </div>
