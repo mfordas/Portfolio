@@ -22,7 +22,7 @@ const Projects = () => {
           <Route exact path="/Portfolio/projects/taskwars" component={TaskWars} />
           <Route exact path="/Portfolio/projects/foreccast" component={ForeCCast} />
           <Route exact path="/Portfolio/projects/snake" component={Snake} />
-          <Route path="/Portfolio/projects/main" component={MainPageContent} />
+          <Route exact path="/Portfolio/projects" component={MainPageContent} />
             </div>
         );
 }
