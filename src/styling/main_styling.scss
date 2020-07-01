@@ -181,6 +181,7 @@ link {
     img {
         margin: .5rem;
         max-width: 20%;
+        max-height: 300px;
 
     }
 
@@ -209,7 +210,22 @@ link {
     p {
         font-size: 0.9rem;
         margin: 0 1rem;
+
+        svg {
+            cursor: pointer;
+            animation: 1s arrow 0.1s ease-in-out alternate infinite;
+            visibility: hidden;
+
+
+            @keyframes arrow {
+                100% {
+                    transform: scale(1.5);
+                }
+            }
+        }
+
     }
+
 }
 
 .landingContainer {
@@ -257,7 +273,7 @@ link {
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
     }
 
     svg {
@@ -281,17 +297,17 @@ link {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
 
-  .photo {
-      width: 10rem;
-      height: 10rem;
-      border-radius: 10rem;
-      border: 2px solid black;
-      margin: 1rem;
+.photo {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    border: 2px solid black;
+    margin: 1rem;
 
-      
-  }
+
+}
 
 @media screen and (max-width: 1024px) {
     #root {
@@ -328,6 +344,17 @@ link {
         height: auto;
         overflow: visible;
     }
+
+    .containerFooterHorizontal {
+    
+        p {
+            svg {
+                visibility: unset;
+            }
+    
+        }
+    
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -335,6 +362,7 @@ link {
 
         img {
             max-width: 35%;
+            max-height: none;
         }
     }
 
@@ -353,6 +381,7 @@ link {
 
         img {
             max-width: 90%;
+            max-height: none
         }
     }
 
