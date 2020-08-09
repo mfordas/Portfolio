@@ -181,7 +181,7 @@ link {
     img {
         margin: .5rem;
         max-width: 20%;
-        max-height: 300px;
+        max-height: 500px;
 
     }
 
@@ -282,7 +282,7 @@ link {
     }
 
     div {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 
@@ -389,6 +389,18 @@ link {
 
         img {
             max-width: 90%;
+        }
+    }
+
+    .Modal {
+        div {
+            font-size: 0.8rem;
+        }
+    }
+
+    .containerFooterHorizontal {
+        p {
+         margin: 0 0.6rem;    
         }
     }
 

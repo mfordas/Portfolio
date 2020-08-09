@@ -27,7 +27,7 @@ const AppContent = () => {
     }
 
     const countForOpenModal = () => {
-        setTimeout(() => openModal(), 30000);
+        setTimeout(() => openModal(), 10000);
     }
 
     useEffect(() => countForOpenModal(), []);
